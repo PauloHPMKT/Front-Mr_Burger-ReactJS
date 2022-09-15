@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 93vh;
+  padding: 0 50px;
+}
+
+aside {
+  width: 15%;
+  padding: 10px 0;
+}
+
+img {
+  width: 100%;
+  border: 1px solid gray;
+}
+
+.container_menu {
+  padding: 10px;
+  width: 85%;
+}
+
+.central_content {
+  height: 65%;
+}
