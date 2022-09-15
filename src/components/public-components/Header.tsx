@@ -3,9 +3,9 @@ import style from '../../styles/Header.module.css'
 const Header = () => {
   return(
     <header className={style.header}>
-      <h1>Logo</h1>
+      <h1>Mr. Burger</h1>
       <div>
-        <button>Login</button>
+        <button onClick={():void => alert('clicou')}>Login</button>
         <button>Crie sua conta</button>
       </div>
     </header>
